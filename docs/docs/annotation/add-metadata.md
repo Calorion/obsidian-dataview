@@ -121,11 +121,11 @@ Noël:: Un jeu de console
 [xmas🎄:: a console game]
 ```
 
-**Using emojis as metadata keys** is possible, but it comes with some limitations. When using emojis in field names, you need to put them into square brackets so that dataview recognize them correctly. 
+**Using emojis as metadata keys** is possible, but it comes with some limitations. When using emojis in field names, you need to put them into square brackets so that dataview will recognize them correctly. 
 Also, please be aware when switching the OS (i.e. from Windows to Android), the same emoji could use another character code and you might not find your metadata when querying it.
 
 !!! info "Task Field Shorthands"
-    An exception to this are the [shorthand syntax](./metadata-tasks.md#field-shorthands) in Tasks. You can use shorthands without bracketing. Please mind though that this only counts for listed shorthands - every other field (if with emojis or not) need to use the `[key:: value]` syntax.
+    An exception to this is the [shorthand syntax](./metadata-tasks.md#field-shorthands) in Tasks. You can use shorthands without bracketing. Please mind though that this only counts for listed shorthands - every other field (if with emojis or not) needs to use the `[key:: value]` syntax.
 
 ## Implicit fields
 
